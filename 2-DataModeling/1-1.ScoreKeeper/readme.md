@@ -32,3 +32,8 @@ Grid {
 // Grid, GridRow를 활용하여 표 구조의 레이아웃 표현 가능
 // Grid는 전체 표를, GridRow는 각 행을 나타내며, 각 행에 포함되는 요소의 길이나 개수가 달라도 자동으로 표 구조의 레이아웃이 갖춰짐
 ```
+
+
+##Preview
+
+![preview](./ScoreKeeper1-preview.png)
