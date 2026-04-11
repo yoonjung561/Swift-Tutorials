@@ -34,6 +34,6 @@ Grid {
 ```
 
 
-##Preview
+## Preview
 
 ![preview](./ScoreKeeper1-preview.png)
