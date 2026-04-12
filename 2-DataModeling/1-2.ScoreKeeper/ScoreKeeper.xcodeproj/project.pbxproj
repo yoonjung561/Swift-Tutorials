@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0E52799C2F8B56160055025C /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0E52799B2F8B56160055025C /* readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0E70C63B2F86807100E879BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -17,6 +21,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E52799B2F8B56160055025C /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		0E70C60A2F8496C200E879BB /* ScoreKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E70C6372F86807100E879BB /* ScoreKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -55,6 +60,7 @@
 		0E70C6012F8496C200E879BB = {
 			isa = PBXGroup;
 			children = (
+				0E52799B2F8B56160055025C /* readme.md */,
 				0E70C60C2F8496C200E879BB /* ScoreKeeper */,
 				0E70C6382F86807100E879BB /* ScoreKeeperTests */,
 				0E70C60B2F8496C200E879BB /* Products */,
@@ -162,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E52799C2F8B56160055025C /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
