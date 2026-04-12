@@ -1,7 +1,7 @@
 ## Data Modeling _ [ch.1-1 Model data with custom types](https://developer.apple.com/tutorials/develop-in-swift/model-data-with-custom-types)
 
 - custom struct type 정의
-```
+```swift
 import Foundation
 
 struct Player: Identifiable {
@@ -17,7 +17,7 @@ struct Player: Identifiable {
 
 
 - Grid / GridRow
-```
+```swift
 Grid {
     GridRow {
         ...

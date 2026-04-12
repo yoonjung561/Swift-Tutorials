@@ -1,7 +1,7 @@
 ## Data Modeling _ [ch.1-2 Add functionality with Swift Testing](https://developer.apple.com/tutorials/develop-in-swift/add-functionality-with-swift-testing)
 
 - enumerations
-```
+```swift
 import Foundation
 
 // 열거형 타입을 이용해 상태와 같이 서로 관련 있지만 상호 배타적인 유형에 대해 정의
@@ -28,7 +28,7 @@ case .gameOver:
 
 
 - mutating func
-```
+```swift
 // struct의 methods가 struct의 properties 값을 수정하는 경우, mutating 키워드를 이용해 표시 필요
 struct Scoreboard {
     ...
@@ -40,7 +40,7 @@ struct Scoreboard {
 
 
 - Testing
-```
+```swift
 import Testing
 // @testable을 이용해 테스트하고자하는 앱(ScoreKeeper)을 import해야 test 환경에서 앱의 내부 메서드에 대한 접근이 가능
 @testable import ScoreKeeper
@@ -68,7 +68,7 @@ struct ScoreKeeperTests {
 
 
 - Picker
-```
+```swift
 //Picker에서 선택된 옵션의 tag 값이 selection에 binding된 변수의 값으로 반영됨
 Picker("Starting points", selection: $startingPoints) {
     Text("Option 0")
@@ -81,7 +81,7 @@ Picker("Starting points", selection: $startingPoints) {
 
 
 - struct의 동등성 판단을 위한 Equatable 확장
-```
+```swift
 struct Player: Identifiable {
     ...
 }
