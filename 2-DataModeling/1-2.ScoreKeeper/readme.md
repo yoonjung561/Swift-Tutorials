@@ -1,5 +1,4 @@
-## Data Modeling _ [ch.1-2 Add functionality with Swift Testing
-](https://developer.apple.com/tutorials/develop-in-swift/add-functionality-with-swift-testing)
+## Data Modeling _ [ch.1-2 Add functionality with Swift Testing](https://developer.apple.com/tutorials/develop-in-swift/add-functionality-with-swift-testing)
 
 - enumerations
 ```
