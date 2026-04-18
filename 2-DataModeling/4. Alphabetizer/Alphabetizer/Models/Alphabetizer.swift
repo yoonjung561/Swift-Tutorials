@@ -16,7 +16,7 @@ class Alphabetizer {
     var score = 0
     var message: Message = .instructions
     
-    init(vocab: Vocabulary = .oceanAnimals) {
+    init(vocab: Vocabulary = .landAnimals) {
         self.vocab = vocab
         startNewGame()
     }
